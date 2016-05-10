@@ -1,0 +1,7 @@
+name: OutOfDate
+main: cc.isotopestudio.OutOfDate.OutOfDate
+
+author: Mars
+description: OutOfDate
+website: http://isotopestudio.cc
+version: 1.0.0
