@@ -12,6 +12,7 @@ public class OutOfDate extends JavaPlugin {
 	public void onEnable() {
 		new ClearTask(this).runTaskTimer(this, 40, 1728000);
 		this.getServer().getPluginManager().registerEvents(new SignListener(), this);
+		this.getCommand("players").setExecutor(new CommandTest());
 		getLogger().info(pluginName + "成功加载!");
 		getLogger().info(pluginName + "由ISOTOPE Studio制作!");
 		getLogger().info("http://isotopestudio.cc");
